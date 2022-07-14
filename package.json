@@ -1,0 +1,19 @@
+{
+  "name": "wechat-validator",
+  "version": "0.0.1",
+  "description": "微信小程序验证器",
+  "main": "src/index.js",
+  "miniprogram": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xgbnl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xgbnl/wechat-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgbnl/wechat-validator/issues"
+  }
+}
