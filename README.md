@@ -47,3 +47,15 @@ validator.validateLength(content, 150)
 ```javascript
 validator.objectEmpty(obj)
 ```
+
+- 给定数组是否为空
+
+```javascript
+validator.isEmptyArray(arr)
+```
+
+- 数组是否包含某个元素
+
+```javascript
+validator.inArray(arr, needle)
+```

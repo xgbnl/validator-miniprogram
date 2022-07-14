@@ -48,8 +48,26 @@ export class Validator extends BaseValidator {
      * @param haystack
      * @returns {boolean}
      */
-    objectEmpty(haystack){
+    objectEmpty(haystack) {
         return JSON.stringify(haystack) === '{}';
+    }
+
+    /**
+     * 数组是否包含某个元素
+     * @param array
+     * @param needle
+     * @returns {*}
+     */
+    inArray(array, needle) {
+        return array.includes(needle);
+    }
+
+    /**
+     * 是否为空数组
+     * @param haystack
+     */
+    isEmptyArray(haystack) {
+        return Array.isArray(haystack) && !haystack.length;
     }
 }
 
