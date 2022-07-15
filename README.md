@@ -13,7 +13,7 @@ npm i wechat-validator
 ### 引入
 
 ```javascript
-import {validator} from 'wechat-validator/index';
+import validator from "wechat-validator";
 ```
 
 ### 验证规则集
