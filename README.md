@@ -59,3 +59,9 @@ validator.isEmptyArray(arr)
 ```javascript
 validator.inArray(arr, needle)
 ```
+
+- 给定身份证号是否合法
+
+```javascript
+validator.isIDCard(idCard)
+```

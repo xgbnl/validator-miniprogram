@@ -1,4 +1,5 @@
 import {BaseValidator} from "./BaseValidator";
+import {IDCard} from '../Rules/IDCard'
 
 export class Validator extends BaseValidator {
 
@@ -68,6 +69,14 @@ export class Validator extends BaseValidator {
      */
     isEmptyArray(haystack) {
         return Array.isArray(haystack) && !haystack.length;
+    }
+
+    /**
+     * 给定身份证号是否合法
+     * @param haystack
+     */
+    isIDCard(haystack) {
+        return IDCard.getInstance().validate(haystack);
     }
 }
 
