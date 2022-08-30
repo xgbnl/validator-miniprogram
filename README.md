@@ -1,11 +1,11 @@
-### wechat-validator
+### validator-miniprogram
 
-> 微信小程序验证器
+> 微信小程序验证器,只支持原生小程序
 
 ### 简单使用
 
 ```shell
-npm i wechat-validator
+npm i validator-miniprogram
 ```
 
 安装完成，点击微信小程序菜单栏 `工具` 下的 `构建npm`
@@ -13,7 +13,7 @@ npm i wechat-validator
 ### 引入
 
 ```javascript
-import validator from "wechat-validator";
+import validator from "validator-miniprogram";
 ```
 
 ### 验证规则集
